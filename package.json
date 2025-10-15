@@ -1,0 +1,33 @@
+{
+  "name": "my-random-mocks",
+  "description": "A collection of random utility mocks sharing to myself. If you want to use them, feel free, but I doubt you'll want that.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --format unix 'src/**/*.ts' '*.{js,ts,mts,mjs,cjs,json}'",
+    "fmt": "prettier -w '*.{json,yml,yaml}'; eslint --fix --format unix 'src/**/*.ts' '*.{js,ts,mts,mjs,cjs,json}'"
+  },
+  "keywords": ["mocks"],
+  "author": "Casaper <me@casaper.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.37.0",
+    "@eslint/json": "^0.13.2",
+    "@types/node": "^24.7.2",
+    "@typescript-eslint/eslint-plugin": "^8.46.1",
+    "eslint": "^9.37.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-formatter-unix": "^8.40.0",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "globals": "^16.4.0",
+    "jiti": "^2.6.1",
+    "prettier": "^3.6.2",
+    "prettier-plugin-sh": "^0.18.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.1"
+  },
+  "packageManager": "pnpm@10.18.3+sha512.bbd16e6d7286fd7e01f6b3c0b3c932cda2965c06a908328f74663f10a9aea51f1129eea615134bf992831b009eabe167ecb7008b597f40ff9bc75946aadfb08d"
+}
