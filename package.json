@@ -12,22 +12,22 @@
   "author": "Casaper <me@casaper.dev>",
   "license": "MIT",
   "devDependencies": {
-    "@eslint/js": "^9.39.2",
-    "@eslint/json": "^0.14.0",
-    "@types/node": "^25.0.6",
-    "@typescript-eslint/eslint-plugin": "^8.52.0",
-    "eslint": "^9.39.2",
+    "@eslint/js": "^10.0.1",
+    "@eslint/json": "^2.0.1",
+    "@types/node": "^26.1.1",
+    "@typescript-eslint/eslint-plugin": "^8.63.0",
+    "eslint": "^10.7.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-formatter-unix": "^9.0.1",
-    "eslint-plugin-prettier": "^5.5.4",
-    "eslint-plugin-simple-import-sort": "^12.1.1",
-    "globals": "^17.0.0",
-    "jiti": "^2.6.1",
-    "prettier": "^3.7.4",
-    "prettier-plugin-sh": "^0.18.0",
-    "tsx": "^4.21.0",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.52.0"
+    "eslint-plugin-prettier": "^5.5.6",
+    "eslint-plugin-simple-import-sort": "^13.0.0",
+    "globals": "^17.7.0",
+    "jiti": "^2.7.0",
+    "prettier": "^3.9.5",
+    "prettier-plugin-sh": "^0.19.0",
+    "tsx": "^4.23.0",
+    "typescript": "^7.0.2",
+    "typescript-eslint": "^8.63.0"
   },
-  "packageManager": "pnpm@10.28.0"
+  "packageManager": "pnpm@11.12.0"
 }
